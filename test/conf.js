@@ -6,11 +6,11 @@
         allScriptsTimeout: 99999,
 
         // The address of a running selenium server.
-        seleniumAddress: 'http://localhost:9515',
+        seleniumAddress: 'http://localhost:4444/wd/hub',
 
         // Capabilities to be passed to the webdriver instance.
         capabilities: {
-            'browserName': 'phantomjs'
+            'browserName': 'chrome'
         },
 
         baseUrl: 'http://localhost:9000/',

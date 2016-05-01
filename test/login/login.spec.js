@@ -1,5 +1,6 @@
 /*global describe, require, beforeEach, browser, it, expect*/
 (function () {
+
     "use strict";
 
     describe('Login Process', function () {
